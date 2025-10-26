@@ -13,7 +13,7 @@ This project combines **Edge AI (YOLO model on Raspberry Pi)** with **Cloud AI (
 
 2. **Cloud AI (Gemini API)**
    - Once a car is detected, the Pi captures an image.
-   - That image is sent to **Google Gemini (via `google-genai`)**.
+   - That image is sent to **Google Gemini**.
    - Gemini reads the **car’s registration number** and returns it as text.
 
 This approach minimizes network usage and latency, the **edge device** does the car detection, while the **cloud AI** handles text extraction and interpretation.
