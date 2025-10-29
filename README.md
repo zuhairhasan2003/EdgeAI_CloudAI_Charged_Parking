@@ -1,4 +1,4 @@
-# 🚗 Smart Parking Detection : Edge AI + Cloud AI (Gemini)
+# 🚗 Smart Car Registration Number Detection : Edge AI + Cloud AI (Gemini)
 
 This project combines **Edge AI (YOLO model on Raspberry Pi)** with **Cloud AI (Google Gemini API)** to automatically detect cars entering a parking area and read their **registration numbers**.
 
