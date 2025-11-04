@@ -32,7 +32,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # install all dependencies
-pip install -r installs.txt
+pip install -r requirements.txt
 ```
 
 ---
@@ -64,11 +64,11 @@ pip install -r installs.txt
 ## ▶️ Run the project
 
 ```bash
-python3 init.py
+python init.py
 ```
 
 * The script continuously monitors for car bumpers.
-* When a car enters, it captures an image and sends it to Gemini for **license plate recognition**.
+* When a car enters the frame, Edge AI model is used to detect it using cars reg plates, then it captures an image and sends it to Gemini for **license plate recognition**.
 * The detected registration number will be printed in the terminal.
 
 Press `Ctrl + C` to stop.
