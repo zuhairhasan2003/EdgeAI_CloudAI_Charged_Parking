@@ -79,7 +79,7 @@ Press `Ctrl + C` to stop.
 
 | Component    | Description                                                             |
 | ------------ | ----------------------------------------------------------------------- |
-| **Edge AI**  | YOLO model (Ultralytics) running locally for real time object detection |
+| **Edge AI**  | Ultralytics YOLO running locally for real time object detection         |
 | **Cloud AI** | Google Gemini API for extracting license plate text                     |
-| **Hardware** | Raspberry Pi + PiCamera2                                                |
+| **Hardware** | Raspberry Pi + Pi Camera Module 2                                       |
 | **Language** | Python 3                                                                |
